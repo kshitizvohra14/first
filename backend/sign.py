@@ -11,7 +11,7 @@ mp_drawing = mp.solutions.drawing_utils
 
 # Create dataset directory
 DATA_PATH = os.path.join('MP_Data')
-actions = np.array(['hi', 'i love you', 'thank you'])  # Remove extra space
+actions = np.array(['hi', 'i love you', 'thank you'])  
 no_sequences = 30
 sequence_length = 30
 
